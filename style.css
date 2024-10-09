@@ -1,0 +1,66 @@
+@font-face {
+    font-family: "figtree";
+    src: url(assets/fonts/Figtree-VariableFont_wght.ttf);
+}
+body {
+    font-family: "figtree";
+    display: grid;
+    place-items: center;
+    padding: 0px;
+    margin: 0px;
+    height: 100vh;
+    width: 100vw;
+    background-color: hsl(47, 88%, 63%);
+}
+.attribution {
+    position: absolute;
+    top: 97%;
+}
+.cont {
+    width: 35%;
+    min-width: 250px;
+    max-width: 300px;
+    box-shadow: 3px 3px 1px 3px;
+    padding: 15px;
+    border: 1px rgb(68, 67, 67) solid;
+    border-radius: 15px;
+    background-color: hsl(0, 0%, 100%);
+}
+.cont > img {
+
+    width: 100%;
+    border-radius: 10px;
+}
+.learning {
+    padding: 7px;
+    font-weight: 800;
+    background-color: hsl(47, 88%, 63%);
+    width: fit-content;
+    border-radius: 5px;
+}
+.heading {
+    font-weight: 800;
+    font-size: 20px;
+}
+.more {
+    font-size: 12px;
+    color: hsl(0, 0%, 42%);
+    font-weight: 500;
+}
+.profile {
+    height: 35px;
+    width: fit-content;
+    display: flex;
+    flex-direction: row;
+    place-items: center;
+    gap :5px;
+    margin-top: 30px;
+    
+}
+.profile > img {
+    height: 100%;
+}
+.name {
+    font-weight: 800;
+    font-size: 12px;
+}
