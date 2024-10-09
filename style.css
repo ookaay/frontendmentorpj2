@@ -42,6 +42,9 @@ body {
     font-weight: 800;
     font-size: 20px;
 }
+.heading:hover {
+    color: hsl(47, 88%, 63%);
+}
 .more {
     font-size: 12px;
     color: hsl(0, 0%, 42%);
